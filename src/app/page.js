@@ -55,7 +55,7 @@ function Home() {
       secondaryBtn: { text: 'Kontaktujte nás', link: '/contact' },
     },
     {
-      image: '/images/logo_institut.png',
+      image: '/images/odborne_poradenstvi.webp',
       tag: 'Vzdělávací institut',
       title: (
         <>
@@ -134,7 +134,7 @@ function Home() {
     {
       title: 'Institut a školení',
       desc: 'Odborná školení, kurzy a workshopy pro firmy i jednotlivce.',
-      image: '/images/logo_institut.png',
+      image: '/images/osveta_myty.webp',
       link: '/productsandservices',
     },
     {
