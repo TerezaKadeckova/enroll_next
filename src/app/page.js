@@ -111,37 +111,37 @@ function Home() {
       title: 'Zateplení objektů',
       desc: 'RD, novostavby, stěny, stropy, střechy a podkrovní prostory.',
       image: '/images/zatepleni_objektu.webp',
-      link: '/productsandservices',
+      link: '/services/zatepleni-objektu',
     },
     {
       title: 'Realizace foukání',
       desc: 'Kompletní profesionální aplikace foukané izolace na klíč.',
       image: '/images/realizacekarta.webp',
-      link: '/productsandservices',
+      link: '/services/realizace-foukani',
     },
     {
       title: 'Aplikace svépomocí',
       desc: 'Zapůjčení aplikačních strojů Tajfun a odborný návod k použití.',
       image: '/images/aplikace_svepomoci.webp',
-      link: '/productsandservices',
+      link: '/services/aplikace-svepomoci',
     },
     {
       title: 'Recyklace a skartace',
       desc: 'Ekologická likvidace dokumentů a recyklace materiálů.',
       image: '/images/recyklace_skartace.webp',
-      link: '/productsandservices',
+      link: '/services/recyklace-skartace',
     },
     {
       title: 'Institut a školení',
       desc: 'Odborná školení, kurzy a workshopy pro firmy i jednotlivce.',
       image: '/images/osveta_myty.webp',
-      link: '/productsandservices',
+      link: '/services/institut-skoleni',
     },
     {
       title: 'Odborné poradenství',
       desc: 'Pomoc s výpočty, technickým řešením a dotacemi Nová zelená úsporám.',
       image: '/images/odborne_poradenstvi.webp',
-      link: '/contact',
+      link: '/services/odborne-poradenstvi',
     },
   ];
 
