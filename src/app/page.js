@@ -38,7 +38,7 @@ function Home() {
         </>
       ),
       text: 'Inovován od roku 1995, stroj Tajfun UNI je ideální pro foukání izolací do všech typů staveb. Spolehlivý, efektivní a snadno ovladatelný.',
-      primaryBtn: { text: 'Více o strojích', link: '#nabidka' },
+      primaryBtn: { text: 'Více o strojích', link: '/products/tajfun-stroje' },
       secondaryBtn: { text: 'Kontaktujte nás', link: '/contact' },
     },
     {
@@ -68,7 +68,7 @@ function Home() {
       secondaryBtn: { text: 'Kontaktujte nás', link: '/contact' },
     },
     {
-      image: '/images/hero-5.png',
+      image: '/images/skartace.webp',
       tag: 'Ekologická likvidace dokumentů',
       title: (
         <>
@@ -78,7 +78,7 @@ function Home() {
         </>
       ),
       text: 'Provádíme skartace veškerých dokumentů firmám, finančním institucím, orgánům státní správy, advokátním kancelářím atd... Zajišťujeme bezpečnou a ekologickou likvidaci citlivých informací.',
-      primaryBtn: { text: 'Prohlédnout ateliér', link: '#nabidka' },
+      primaryBtn: { text: 'Skartace', link: '#nabidka' },
       secondaryBtn: { text: 'Kontaktujte nás', link: '/contact' },
     },
   ];
@@ -89,19 +89,19 @@ function Home() {
       title: 'Tajfun stroje',
       desc: 'Spolehlivé foukací stroje TAJFUN UNI a technologie s inovací od roku 1995.',
       image: '/images/stroje2.webp',
-      link: '/productsandservices',
+      link: '/products/tajfun-stroje',
     },
     {
       title: 'Izolační materiály',
       desc: 'Celulóza TEMPELAN, bavlněná vlákna EN-TEX a polystyren STYROBALL.',
       image: '/images/izolace.webp',
-      link: '/productsandservices',
+      link: '/products/izolacni-materialy',
     },
     {
       title: 'Tepelná čerpadla',
       desc: 'Moderní a ekologické systémy vytápění pro úsporu energie v domě.',
-      image: '/images/principTPC.png',
-      link: '/productsandservices',
+      image: '/images/cerpadla/EVI2.webp',
+      link: '/products/tepelna-cerpadla',
     },
   ];
 
@@ -116,7 +116,7 @@ function Home() {
     {
       title: 'Realizace foukání',
       desc: 'Kompletní profesionální aplikace foukané izolace na klíč.',
-      image: '/images/tajfun_barvy.webp',
+      image: '/images/realizacekarta.webp',
       link: '/productsandservices',
     },
     {

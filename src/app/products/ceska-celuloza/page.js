@@ -11,7 +11,7 @@ function CeskaCeluloza() {
   const faqData = [
     {
       q: "V čem se ČESKÁ CELULÓZA líší od materiálu TEMPELAN?",
-      a: "ČESKÁ CELULÓZA® je nová generace celulózové izolace, která využívá ještě jemnějších vláken a vylepšených přísad pro maximální objemovou stálost a snadnější aplikaci u náročných konstrukcí."
+      a: "ČESKÁ CELULÓZA® je nová generace celulózové izolace, která využívá ještě jemnějších vláken a vylepšených přísad pro maximální objemovou stálost a snadnější aplikaci u náročných konstrukcí. Jedná se o ryze český produkt."
     },
     {
       q: "Sedá si ČESKÁ CELULÓZA po čase v konstrukci?",
@@ -35,26 +35,40 @@ function CeskaCeluloza() {
     <div className="w-full flex flex-col text-brand-dark bg-[var(--color-brand-light)]">
       
       {/* Hero sekce */}
-      <section className="relative w-full h-[60vh] md:h-[75vh] flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/tempelan-hero.webp" 
-          alt="Česká celulóza" 
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
-        
-        <div className="relative z-20 text-center px-6 max-w-5xl">
-          <h1 className="font-display text-4xl md:text-[52px] font-bold text-brand-accent tracking-tight mb-4 uppercase leading-tight">
-            ČESKÁ CELULÓZA®
-          </h1>
-          <p className="text-xl md:text-2xl font-medium text-white mb-3 uppercase tracking-wide">
-            Ekologická celulózová izolace nejvyšší kvality
-          </p>
-          <p className="text-base md:text-lg font-normal text-gray-200 uppercase tracking-wider">
-            přírodní • chráněno proti ohni • nesesedá
-          </p>
-        </div>
-      </section>
+<section className="w-full bg-[var(--color-brand-light)] border-b border-brand-secondary overflow-hidden">
+  <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 min-h-[55vh] md:min-h-[65vh]">
+    
+    {/* Levá polovina: Text na čistém světlém podkladu */}
+    <div className="flex flex-col justify-center px-6 py-12 md:px-12 lg:py-16 lg:pr-12 text-left">
+      <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-accent/10 border border-brand-accent/25 text-brand-accent text-xs md:text-sm font-semibold uppercase tracking-wider w-fit mb-5">
+        <span>Izolační materiál</span>
+      </div>
+
+      <h1 className="font-display text-4xl md:text-[52px] font-bold text-brand-accent tracking-tight mb-4 uppercase leading-tight">
+        ČESKÁ CELULÓZA®
+      </h1>
+
+      <p className="text-lg md:text-2xl font-medium text-brand-dark mb-4 leading-snug">
+        Ekologická celulózová izolace nejvyšší kvality
+      </p>
+
+      <p className="text-sm md:text-base font-medium text-brand-dark/70 uppercase tracking-wider mb-8">
+        „přírodní“ • chráněno proti ohni • nesesedá
+      </p>
+
+    </div>
+
+    {/* Pravá polovina: Fotografie bez překryvů a ztmavení */}
+    <div className="relative min-h-[320px] sm:min-h-[400px] lg:min-h-full w-full">
+      <img 
+        src="/images/tempelan.webp" 
+        alt="Česká celulóza" 
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
 
       {/* Zelená mottos */}
       <section className="w-full bg-brand-primary py-12 border-b border-brand-secondary shadow-sm">
@@ -99,11 +113,11 @@ function CeskaCeluloza() {
             />
           </div>
 
-          <div className="w-full bg-[var(--color-brand-dark)] text-white p-10 md:p-16 flex flex-col justify-center">
+          <div className="w-full bg-[var(--color-brand-secondary)] text-brand-dark p-10 md:p-16 flex flex-col justify-center">
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-6 text-brand-accent uppercase">
               Vynikající vlastnosti
             </h3>
-            <ul className="space-y-3 text-base md:text-lg text-gray-300">
+            <ul className="space-y-3 text-base md:text-lg text-brand-dark">
               <li className="flex items-start gap-3">
                 <span className="text-brand-accent font-bold">✓</span>
                 <span>Vynikající tepelně-izolační schopnosti v zimě i v létě.</span>
@@ -119,7 +133,7 @@ function CeskaCeluloza() {
             </ul>
           </div>
 
-          <div className="w-full bg-brand-accent text-brand-dark p-10 md:p-16 flex flex-col justify-center">
+          <div className="w-full bg-brand-accent text-brand-primary p-10 md:p-16 flex flex-col justify-center">
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-6 uppercase">
               Oblasti použití
             </h3>

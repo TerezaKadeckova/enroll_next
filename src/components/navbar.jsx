@@ -28,6 +28,7 @@ const Navbar = () => {
     { title: 'Tepelná čerpadla', to: '/products/tepelna-cerpadla' },
     {
       title: 'Izolační materiály',
+      to: '/products/izolacni-materialy',
       items: [
         { to: '/products/ceska-celuloza', label: 'Česká celulóza' },
         { to: '/products/en-tex', label: 'EN-TEX' },
@@ -85,7 +86,7 @@ const Navbar = () => {
         </button>
 
         {/* Navigace pro Počítače / Desktopy */}
-        <nav className="hidden md:flex items-center gap-6 font-medium text-slate-600">
+        <nav className="hidden md:flex items-center gap-6 font-medium text-xl text-slate-600">
           <Link href="/" className={pathname === "/" ? "text-brand-accent font-semibold" : "hover:text-brand-accent transition-colors"}>Domů</Link>
           <Link href="/about" className={pathname === "/about" ? "text-brand-accent font-semibold" : "hover:text-brand-accent transition-colors"}>O nás</Link>
           

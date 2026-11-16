@@ -63,27 +63,37 @@ export default function TajfunPage() {
   return (
     <div className="w-full flex flex-col text-brand-dark bg-[var(--color-brand-light)]">
       
-      {/* 1. SEKCE: Hero sekce se stínem */}
-      <section className="relative w-full h-[60vh] md:h-[75vh] flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/tajfun_barvy.webp" 
-          alt="Aplikační stroje TAJFUN" 
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
-        <div className="absolute inset-0 bg-black/60 z-10"></div>
-        
-        <div className="relative z-20 text-center px-6 max-w-5xl">
-          <h1 className="font-display text-4xl md:text-[52px] font-bold text-brand-accent tracking-tight mb-4 uppercase leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-            APLIKAČNÍ STROJE TAJFUN
-          </h1>
-          <p className="text-xl md:text-2xl font-medium text-white mb-3 uppercase tracking-wide drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]">
-            Špičkové stroje na foukání izolačních materiálů vyráběné v ČR
-          </p>
-          <p className="text-base md:text-lg font-normal text-gray-200 uppercase tracking-wider drop-shadow-[0_1px_4px_rgba(0,0,0,0.9)]">
-            Prověřeno desítkami let vývoje • spolehlivé • snadno ovladatelné
-          </p>
-        </div>
-      </section>
+{/* 1. SEKCE: Hero sekce se světlým Glassmorphismem u spodní hrany */}
+<section className="relative w-full h-[65vh] md:h-[80vh] flex items-end justify-center overflow-hidden pb-8 md:pb-12">
+  {/* Pozadí - fotka */}
+  <img 
+    src="/images/tajfun_barvy.webp" 
+    alt="Aplikační stroje TAJFUN" 
+    className="absolute inset-0 w-full h-full object-cover z-0"
+  />
+  
+  {/* Světlá karta z matného skla posunutá dolů */}
+  <div className="relative z-20 px-6 w-full max-w-4xl mx-auto flex justify-center">
+    <div className="bg-gray-100/75 backdrop-blur-xl border border-white/80 rounded-3xl p-6 md:p-10 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)] text-center max-w-3xl w-full">
+      
+      {/* Hlavní nadpis v barvě brand-accent */}
+      <h1 className="font-display text-3xl md:text-[42px] font-bold text-brand-accent tracking-tight mb-3 uppercase leading-tight">
+        APLIKAČNÍ STROJE TAJFUN
+      </h1>
+      
+      {/* Podnadpis */}
+      <p className="text-base md:text-lg font-medium text-brand-dark/90 mb-3 uppercase tracking-wide">
+        Špičkové stroje na foukání izolačních materiálů vyráběné v ČR
+      </p>
+      
+      {/* Doplňkový text */}
+      <p className="text-xs md:text-sm font-normal text-brand-dark/75 uppercase tracking-wider">
+        Prověřeno desítkami let vývoje • spolehlivé • snadno ovladatelné
+      </p>
+
+    </div>
+  </div>
+</section>
 
       {/* 2. SEKCE: Zelená mottos */}
       <section className="w-full bg-brand-primary py-12 border-b border-brand-secondary shadow-sm">

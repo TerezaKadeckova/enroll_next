@@ -42,26 +42,41 @@ export default function IzoballPage() {
     <div className="w-full flex flex-col text-brand-dark bg-[var(--color-brand-light)]">
       
       {/* 1. SEKCE: Hero sekce */}
-      <section className="relative w-full h-[60vh] md:h-[75vh] flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/izo-ball.webp" 
-          alt="Směs IZO-BALL pro polystyrenbeton" 
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
-        <div className="absolute inset-0 bg-black/50 z-10"></div>
-        
-        <div className="relative z-20 text-center px-6 max-w-5xl">
-          <h1 className="font-display text-4xl md:text-[52px] font-bold text-brand-accent tracking-tight mb-4 uppercase leading-tight">
-            IZO-BALL
-          </h1>
-          <p className="text-xl md:text-2xl font-medium text-white mb-3 uppercase tracking-wide">
-            Jedinečná směs pro snadnou přípravu POLYSTYRENBETONU
-          </p>
-          <p className="text-base md:text-lg font-normal text-gray-200 uppercase tracking-wider">
-            Vyroben ze 100% recyklovaného polystyrenu • s patentovaným mikrovláknem
-          </p>
-        </div>
-      </section>
+    
+<section className="w-full bg-[var(--color-brand-light)] border-b border-brand-secondary overflow-hidden">
+  <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-2 min-h-[55vh] md:min-h-[65vh]">
+    
+    {/* Levá polovina: Text na čistém světlém podkladu */}
+    <div className="flex flex-col justify-center px-6 py-12 md:px-12 lg:py-16 lg:pr-12 text-left">
+      <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-accent/10 border border-brand-accent/25 text-brand-accent text-xs md:text-sm font-semibold uppercase tracking-wider w-fit mb-5">
+        <span>Směs pro polystyrenbeton</span>
+      </div>
+
+      <h1 className="font-display text-4xl md:text-[52px] font-bold text-brand-accent tracking-tight mb-4 uppercase leading-tight">
+        IZO-BALL
+      </h1>
+
+      <p className="text-lg md:text-2xl font-medium text-brand-dark mb-4 leading-snug">
+        Jedinečná směs pro snadnou přípravu POLYSTYRENBETONU
+      </p>
+
+      <p className="text-sm md:text-base font-medium text-brand-dark/70 uppercase tracking-wider mb-8">
+        Vyroben ze 100% recyklovaného polystyrenu <br />s patentovaným mikrovláknem
+      </p>
+
+    </div>
+
+    {/* Pravá polovina: Fotografie bez překryvů a ztmavení */}
+    <div className="relative min-h-[320px] sm:min-h-[400px] lg:min-h-full w-full">
+      <img 
+        src="/images/izo-ball.webp" 
+        alt="Směs IZO-BALL pro polystyrenbeton" 
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
 
       {/* 2. SEKCE: Zelená mottos */}
       <section className="w-full bg-brand-primary py-12 border-b border-brand-secondary shadow-sm">
@@ -115,11 +130,11 @@ export default function IzoballPage() {
           </div>
 
           {/* 2. blok: Tmavý panel */}
-          <div className="w-full bg-[var(--color-brand-dark)] text-white p-10 md:p-16 flex flex-col justify-center">
+          <div className="w-full bg-[var(--color-brand-secondary)] text-brand-dark p-10 md:p-16 flex flex-col justify-center">
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-6 text-brand-accent uppercase">
               Výhody při míchání a přípravě
             </h3>
-            <ul className="space-y-3 text-base md:text-lg text-gray-300">
+            <ul className="space-y-3 text-base md:text-lg text-brand-dark">
               <li className="flex items-start gap-3">
                 <span className="text-brand-accent font-bold">✓</span>
                 <span>Kuličky k sobě natáhnou cementové mléko a neplavou na hladině.</span>
@@ -140,7 +155,7 @@ export default function IzoballPage() {
           </div>
 
           {/* 3. blok: Zelený panel */}
-          <div className="w-full bg-brand-accent text-brand-dark p-10 md:p-16 flex flex-col justify-center">
+          <div className="w-full bg-brand-accent text-brand-primary p-10 md:p-16 flex flex-col justify-center">
             <h3 className="font-display text-2xl md:text-3xl font-bold mb-6 uppercase">
               Přednosti při pokládce a čerpání
             </h3>
@@ -190,7 +205,7 @@ export default function IzoballPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-brand-primary p-6 rounded-xl border border-brand-secondary shadow-sm flex flex-col justify-between">
             <div>
-              <div className="text-brand-accent text-3xl mb-3">💧</div>
+              <div className="text-brand-accent text-3xl mb-3">⚙️</div>
               <h3 className="font-display font-bold text-lg text-brand-dark mb-2">Po položení směsi</h3>
               <p className="text-sm text-brand-dark/80 leading-relaxed">
                 IZO-BALL ve směsi stále drží vodu, čímž eliminuje její vypadnutí a výrazně přispívá k lepší hydrataci betonu.
@@ -200,7 +215,7 @@ export default function IzoballPage() {
 
           <div className="bg-brand-primary p-6 rounded-xl border border-brand-secondary shadow-sm flex flex-col justify-between">
             <div>
-              <div className="text-brand-accent text-3xl mb-3">⚙️</div>
+              <div className="text-brand-accent text-3xl mb-3">💧</div>
               <h3 className="font-display font-bold text-lg text-brand-dark mb-2">Snadné čerpání</h3>
               <p className="text-sm text-brand-dark/80 leading-relaxed">
                 Voda se při čerpání nevymáčkne. Díky mikrovláknu beton plynule proudí hadicí i při velmi nízkých objemových hmotnostech.
