@@ -107,6 +107,9 @@ export default function TempelanPage() {
                 TEMPELAN je vysoce kvalitní foukaná celulózová izolace vyrobená z čistého, tříděného recyklovaného novinového papíru s přírodním ošetřením proti plísním, škůdcům a ohni.
               </p>
               <p>
+                Celulózová izolace TEMPELAN je dnes již tradičním výrobkem: na československý a český trh byl uveden v květnu 1991.
+              </p>
+              <p>
                 Díky své struktuře a aplikaci foukáním dokonale vyplní každý detail konstrukce bez vzniku tepelných mostů. Skvěle izoluje proti chladu v zimě i horku v létě a vyniká mimořádnou akustickou izolací.
               </p>
               <p>

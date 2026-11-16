@@ -124,6 +124,9 @@ export default function IntelanPage() {
             <p>
               Jednou aplikací tak vyřešíte hned tři kritické problémy moderních staveb: radikální snížení hluku, spolehlivou ochranu před kondenzací vody a zvýšení požární bezpečnosti ocelových či dřevěných konstrukcí.
             </p>
+            <p>
+              <strong>INTELAN</strong> s možností barevných variant je rovněž skvělým designovým prvkem interiérů všech typů staveb – školy, diskotékové sály, veřejné budovy, knihovny atd.
+            </p>
           </div>
           
           <div className="pt-4 flex justify-center">

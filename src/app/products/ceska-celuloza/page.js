@@ -93,7 +93,7 @@ function CeskaCeluloza() {
               <strong>ČESKÁ CELULÓZA®</strong> je ekologicky šetrný izolační materiál vyráběný z výběrového sběrového papíru a zušlechtěný minerálními přísadami pro dosažení vysoké odolnosti proti ohni, plísním i hlodavcům.
             </p>
             <p>
-              <strong>ČESKÁ CELULÓZA®</strong> je pravý a nefalšovaný český výrobek od české firmy.
+              <strong>ČESKÁ CELULÓZA®</strong> je identický výrobek s izolací TEMPELAN. Našim klientům, kteří dávají přednost českým výrobkům (a za to jim děkujeme), tak dáváme najevo, že ČESKÁ CELULÓZA je pravý a nefalšovaný český výrobek od české firmy, která je v majetku českých občanů.
             </p>
             <p>
               Foukaná aplikace eliminuje vznik tepelných mostů a dokonale vyplní i ty nejhůře přístupné spáry a dutiny ve vaší stavbě.
