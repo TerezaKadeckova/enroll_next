@@ -30,8 +30,8 @@ function Recyklaceskartace() {
   return (
     <div className="w-full flex flex-col text-brand-dark bg-[var(--color-brand-light)]">
       
-      {/* 1. SEKCE: Hero sekce se světlým Glassmorphismem u spodní hrany */}
-      <section className="relative w-full h-[65vh] md:h-[80vh] flex items-end justify-center overflow-hidden pb-8 md:pb-12">
+      {/* 1. SEKCE: Hero sekce se ztmaveným zeleným přechodem a zelenými texty */}
+      <section className="relative w-full h-[70vh] md:h-[85vh] flex items-center justify-start overflow-hidden px-6 md:px-16 lg:px-24">
         {/* Pozadí - fotka */}
         <img 
           src="/images/skartace.webp" 
@@ -39,24 +39,48 @@ function Recyklaceskartace() {
           className="absolute inset-0 w-full h-full object-cover z-0"
         />
         
-        {/* Světlá karta z matného skla posunutá dolů */}
-        <div className="relative z-20 px-6 w-full max-w-4xl mx-auto flex justify-center">
-          <div className="bg-gray-100/75 backdrop-blur-xl border border-black/80 rounded-3xl p-6 md:p-10 shadow-[0_8px_32px_0_rgba(31,38,135,0.15)] text-center max-w-3xl w-full">
-            
-            {/* Hlavní nadpis v barvě brand-accent */}
-            <h1 className="font-display text-3xl md:text-[42px] font-bold text-brand-accent tracking-tight mb-3 uppercase leading-tight">
-              Skartace veškerých dokumentů
-            </h1>
-            
-            {/* Podnadpis */}
-            <p className="text-base md:text-lg font-medium text-brand-dark/90 uppercase tracking-wide">
-              Bezpečná a ekologická likvidace pro firmy i instituce
-            </p>
-
+        {/* Ztmavený zelený přechod zleva doprava (kombinace tmavé a brand-accent pro hloubku) */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-brand-dark)] via-brand-accent/90 to-transparent z-10 md:w-[80%]"></div>
+        
+        {/* Obsah hero sekce */}
+        <div className="relative z-20 max-w-3xl text-left flex flex-col items-start gap-4">
+          
+          {/* Malý horní nadpis s podtržením v barvě brand-accent */}
+          <div>
+            <span className="font-display text-sm md:text-base font-bold text-brand-accent-light uppercase tracking-wider block mb-1">
+              Ekologická likvidace dokumentů
+            </span>
+            <div className="h-0.5 w-32 bg-brand-accent"></div>
           </div>
+
+          {/* Hlavní velký nadpis v barvě brand-accent */}
+          <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-brand-accent-light tracking-tight leading-tight">
+            Skartace dokumentů a písemností
+          </h1>
+          
+          {/* Popisný text (světlý pro dobrou čitelnost na ztmaveném pozadí) */}
+          <p className="text-base sm:text-lg md:text-xl text-white/95 leading-relaxed max-w-2xl font-normal">
+            Provádíme skartaci veškerých dokumentů firmám, finančním institucím, orgánům státní správy, advokátním kancelářím atd. Zajišťujeme bezpečnou likvidaci citlivých informací.
+          </p>
+
+          {/* Tlačítka (první zelené brand-accent, druhé tmavé brand-dark) */}
+          <div className="flex flex-col sm:flex-row gap-4 mt-4 w-full sm:w-auto">
+            <Link
+              href="/contact"
+              className="bg-brand-accent-light hover:opacity-90 text-white font-semibold px-8 py-3.5 rounded-lg transition-all shadow-md text-center"
+            >
+              Více o nás
+            </Link>
+            <Link
+              href="/contact"
+              className="bg-brand-dark hover:bg-brand-dark/90 text-white font-semibold px-8 py-3.5 rounded-lg transition-all shadow-md text-center border border-white/20"
+            >
+              Kontaktujte nás
+            </Link>
+          </div>
+
         </div>
       </section>
-
       {/* 2. SEKCE: Úvod a podrobnosti o skartaci */}
       <section className="w-full max-w-4xl mx-auto px-6 py-16 md:py-24 text-center">
         <div className="space-y-6">
