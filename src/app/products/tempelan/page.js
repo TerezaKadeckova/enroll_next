@@ -145,8 +145,8 @@ export default function TempelanPage() {
           {/* 1. blok: Obrázek */}
           <div className="w-full h-[350px] md:h-[450px] overflow-hidden relative">
             <img 
-              src="/images/tempelan-aplikace.webp" 
-              alt="Aplikace Tempelanu" 
+              src="/images/tempelanbalikv.webp" 
+              alt="Balík foukané izolace TEMPELAN" 
               className="w-full h-full object-cover"
             />
           </div>

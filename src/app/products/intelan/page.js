@@ -380,10 +380,10 @@ export default function IntelanPage() {
       <section className="w-full max-w-[1400px] mx-auto px-6 py-16 md:py-24 border-t border-brand-secondary">
         <div className="text-center mb-12">
           <h2 className="font-display text-3xl md:text-[36px] font-bold text-brand-dark mb-4">
-            Ukázky aplikací izolace
+            Ukázky z realizací izolace
           </h2>
           <p className="text-brand-dark/80 max-w-2xl mx-auto text-lg">
-            Prohlédněte si fotogalerii reálných realizací akustických a protipožárních nástřiků INTELAN. (Kliknutím obrázek zvětšíte)
+            Prohlédněte si fotogalerii reálných realizací akustických a protipožárních nástřiků INTELAN.
           </p>
         </div>
 
